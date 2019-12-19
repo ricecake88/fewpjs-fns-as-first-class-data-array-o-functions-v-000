@@ -36,8 +36,9 @@ function unleashDog(dogName, dogBreed) {
 
 function exerciseDog(dogName, dogBreed) {
   let routine = ["wakeDog", "leashDog", "walkToPark", "throwFrisbee", "walkHome", "unleashDog"];
+  let result = [];
   for (var i = 0; i < arrayOfFunctions.length; ++i) {
-    routine[i]();
+    result.push(routine[i](dogName, dogBreed));
   }
 }
 
