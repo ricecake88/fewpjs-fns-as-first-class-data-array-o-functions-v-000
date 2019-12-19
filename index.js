@@ -37,7 +37,7 @@ function unleashDog(dogName, dogBreed) {
 function exerciseDog(dogName, dogBreed) {
   let routine = ["wakeDog", "leashDog", "walkToPark", "throwFrisbee", "walkHome", "unleashDog"];
   let result = [];
-  result.push(routine.forEach(function item(dogName, dogBreed)));
+  result.push(routine.forEach(;
   return push;
 }
 
