@@ -24,6 +24,9 @@ function unleashDog(dogName, dogBreed) {
 
 function exerciseDog(dogName, dogBreed) {
   let routine = [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashDog];  
-  foreach
+  routine.forEach(myFunction);
+  function myFunction(dogName, dogBreed) {
+    
+  }
 }
 
