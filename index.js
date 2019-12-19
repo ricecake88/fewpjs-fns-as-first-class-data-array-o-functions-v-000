@@ -42,5 +42,7 @@ function exerciseDog(dogName, dogBreed) {
   for (var i = 0; i < arrayOfFunctions.length; ++i) {
     result.push(routine[i](dogName, dogBreed));
   }
+  
+  return result;
 }
 
