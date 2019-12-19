@@ -11,31 +11,31 @@ function leashDog(dogName, dogBreed) {
 }
 
 function walkToPark(dogName, dogBreed) {
-  let str = "Walk to the park with ${dogName} the ${dogBreed}";  
+  let str = `Walk to the park with ${dogName} the ${dogBreed}`;  
   console.log(str);
   return str;
 }
 
 function throwFrisbee(dogName, dogBreed) {
-  let str = "Throw the frisbee for ${dogName} the ${dogBreed}"; 
+  let str = `Throw the frisbee for ${dogName} the ${dogBreed}`; 
   console.log(str);
   return str;
 }
 
 function walkHome(dogName, dogBreed) {
-  let str = "Walk home with ${dogName} the ${dogBreed}";
+  let str = `Walk home with ${dogName} the ${dogBreed}`;
   console.log(str);
   return str;
 }
 
 function unleashDog(dogName, dogBreed) {
-  let str = "Unleash ${dogName} the ${dogBreed}";
+  let str = `Unleash ${dogName} the ${dogBreed}`;
   console.log(str);
   return str;
 }
 
 function exerciseDog(dogName, dogBreed) {
-  let routine = [wakeDog, "leashDog", "walkToPark", "throwFrisbee", "walkHome", "unleashDog"];
+  let routine = [wakeDog, `leashDog`, `walkToPark`, `throwFrisbee`, `walkHome`, `unleashDog`];
   let result = [];
   for (var i = 0; i < arrayOfFunctions.length; ++i) {
     result.push(routine[i](dogName, dogBreed));
