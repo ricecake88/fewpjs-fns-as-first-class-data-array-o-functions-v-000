@@ -39,7 +39,7 @@ let routine = [wakeDog, "leashDog", "walkToPark", "throwFrisbee", "walkHome", "u
 function exerciseDog(dogName, dogBreed) {
 
   let result;
-  for (var i = 0; i < arrayOfFunctions.length; ++i) {
+  for (var i = 0; i < routine.length; ++i) {
     result.push(routine[i](dogName, dogBreed));
   }
   
