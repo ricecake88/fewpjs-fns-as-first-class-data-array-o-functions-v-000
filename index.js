@@ -14,3 +14,6 @@ function throwFrisbee(dogName, dogBreed) {
   
 }
 
+function walkHome(dogName, dogBreed) {
+  
+}
